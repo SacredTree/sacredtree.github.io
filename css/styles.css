@@ -4,12 +4,22 @@ body {
 	color: #003300;
 	text-decoration: none;
 }
-#main-header  {
+#main-header {
 	font-family: Tangerine;
 	font-size: 40px;
 	padding: 0%;
 	line-height: 95%;
 	margin-top: 7%;
+}
+#main-header a:hover {
+	text-decoration: none;
+	color: #003300;
+}
+.nav {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+	margin-bottom: 2%;
 }
 .nav ul {
 	list-style: none;
@@ -51,6 +61,13 @@ body {
 	color: #666;
 	font-size: 16px;
 	margin-right: 5%;
+}
+.footer img {
+	margin: 3% 0 0 3%;
+}
+.footer p {
+	color:#666;
+	margin: 3%;
 }
 
 /*Below this applies to gallery.html only*/
