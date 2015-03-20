@@ -16,6 +16,7 @@ body {
 }
 .nav ul li {
 	display: inline;
+	padding: 0 3%;
 }
 #main-header { /*This is only the Sacred Tree logo*/
 	font-family: Tangerine;
